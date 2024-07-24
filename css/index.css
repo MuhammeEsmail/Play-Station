@@ -1,0 +1,48 @@
+body {
+  font-family: "Caveat", cursive;
+  background-image: url('../joystick-gaming-controller-isolated-blue-background_39665-102.avif');
+  background-position: center;
+  background-size: cover;
+  color: #353a48;
+  background-attachment: fixed;
+}
+.box{
+  top: 0;
+  left: 50px;
+  
+}
+.playstations-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.playstation {
+  margin: 10px;
+  padding: 20px 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255,0.4);
+}
+
+.playstation h3 {
+  margin-top: 0;
+}
+
+.playstation .status {
+  font-weight: bold;
+}
+
+.playstation .controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.playstation button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.controls button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
